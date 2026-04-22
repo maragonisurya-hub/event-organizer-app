@@ -1,11 +1,11 @@
-# 🎉 EventHub — Full-Stack Event Organizer System
+#  EventHub — Full-Stack Event Organizer System
 
 A complete MERN stack (MongoDB, Express, React, Node.js) application for organizing and managing events.
 Built for resume, interviews, and portfolio demonstrations.
 
 ---
 
-## 🗂️ Folder Structure
+##  Folder Structure
 
 ```
 event-organizer/
@@ -54,7 +54,7 @@ event-organizer/
 
 ---
 
-## ⚙️ Prerequisites
+##  Prerequisites
 
 Make sure you have these installed:
 - [Node.js](https://nodejs.org/) (v16+)
@@ -63,7 +63,7 @@ Make sure you have these installed:
 
 ---
 
-## 🚀 Step-by-Step Setup
+##  Step-by-Step Setup
 
 ### Step 1 — Clone / Download the project
 
@@ -137,8 +137,20 @@ npm start
 The React app opens at: **http://localhost:3000**
 
 ---
+ 
+##  Screen shots 
 
-## 🔑 Login Credentials
+![Admin Dashboard](images/admindashboard.png)
+
+![User Dashboard](images/dashboard.png)
+
+![Events Page](images/eventspage.png)
+
+![Home page](images/homepage.png)
+
+![New Events](images/newevents.png)
+
+##  Login Credentials
 
 | Role  | Email                   | Password |
 |-------|-------------------------|----------|
@@ -147,7 +159,7 @@ The React app opens at: **http://localhost:3000**
 
 ---
 
-## 🌐 API Reference
+##  API Reference
 
 ### Auth Routes (`/api/auth`)
 | Method | Endpoint              | Access  | Description          |
@@ -175,7 +187,7 @@ The React app opens at: **http://localhost:3000**
 
 ---
 
-## 🔐 How Authentication Works
+##  How Authentication Works
 
 1. User logs in → server returns a **JWT token**
 2. Token is stored in **localStorage**
@@ -188,16 +200,16 @@ The React app opens at: **http://localhost:3000**
 
 ---
 
-## 🎯 Features Summary
+##  Features Summary
 
-### 👤 User Features
+###  User Features
 - Register / Login
 - View all events
 - Register for events (one click)
 - View registered events on personal dashboard
 - Submit star-rated feedback
 
-### 🛠️ Admin Features
+###  Admin Features
 - Separate admin login page
 - Admin dashboard with stats
 - Add / Edit / Delete events
@@ -206,7 +218,7 @@ The React app opens at: **http://localhost:3000**
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Layer     | Technology                    |
 |-----------|-------------------------------|
@@ -219,7 +231,7 @@ The React app opens at: **http://localhost:3000**
 
 ---
 
-## 💡 Common Issues & Fixes
+##  Common Issues & Fixes
 
 **MongoDB not connecting?**
 - Make sure MongoDB service is running: `mongod` (Linux/Mac) or start MongoDB from Services (Windows)
@@ -235,7 +247,7 @@ The React app opens at: **http://localhost:3000**
 
 ---
 
-## 📦 Build for Production
+##  Build for Production
 
 ```bash
 # Build React frontend
@@ -244,4 +256,4 @@ cd client && npm run build
 # Serve the build folder using a static file server or deploy to Vercel/Netlify
 ```
 
-For the backend, deploy to Render, Railway, or any Node.js hosting.
+
